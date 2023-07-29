@@ -22,6 +22,9 @@ DEVICE_PATH := device/realme/bladerunner_48m
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX2072CN,bladerunner_48m
 
+# Kernel
+TARGET_KERNEL_MAKE_ENV += TARGET_USES_LEGACY_SENSOR_DEVINFO=true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
