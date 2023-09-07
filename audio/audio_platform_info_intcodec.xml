@@ -127,6 +127,9 @@
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch mic begin-->
         <param key="camcorder_switch_mic" value="true"/>
         <!--webber.yan@MM.AudioService.OPLUS_FEATURE_SWITCH_MIC, 2020/12/18, Add for camcorder switch end -->
+        <!--MULTIMEDIA.AUDIODRIVER.HAL, 2023/3/1, Add for downlink_mute-->
+        <param key="enable_car_vc_dl_mute" value="true"/>
+        <!--MULTIMEDIA.AUDIODRIVER.HAL, 2023/3/1, Add for downlink_mute end  -->
     </config_params>
     <gain_db_to_level_mapping>
         <gain_level_map db="-59" level="5"/>
